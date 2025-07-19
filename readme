@@ -1,0 +1,25 @@
+# 🖨️ Thermal Printer Service
+
+A lightweight Node.js service to handle printing to a thermal receipt printer. This service is designed to run locally and listen on port `7001`.
+
+## 🔧 Features
+
+- ESC/POS command support
+- Dynamic printer detection (default or by keyword)
+- Auto-cut support
+- REST API to trigger printing
+- Logs success or failure of print jobs
+
+## 📦 Requirements
+
+- Node.js (v14 or higher)
+- A thermal printer installed on the local machine (e.g., RP3160)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mhdyaseen8841/thermal_printer_service.git
+cd thermal_printer_service
+
